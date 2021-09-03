@@ -15,6 +15,6 @@ int factorial(int z)
 	if (z == 0) {
 		return 1;
 	}
-	return z * factorial(z - 1);
+	else return z * factorial(z - 1);
 
 }
