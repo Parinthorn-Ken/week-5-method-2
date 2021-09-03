@@ -1,10 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 int factorial(int z);
 int main() {
-	int x,y;
+	int x, y;
 	printf("enter positive number: ");
-	scanf("%d",&x);
+	scanf("%d", &x);
 	factorial(x);
 	y = factorial(x);
 	printf("factorial of %d is %d", x, y);
@@ -12,9 +12,9 @@ int main() {
 }
 int factorial(int z)
 {
-	if (z==0) {
+	if (z == 0) {
 		return 1;
 	}
-		return z * factorial(z-1);
-	
+	return z * factorial(z - 1);
+
 }
